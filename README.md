@@ -2,6 +2,8 @@
 
 Problem Statement 15-9: "Develop a measuring board (or another system) that could automatically measure and record fish length."
 
+[Fishtech Website](http://fishtech.azurewebsites.net/)
+
 ## Feature Stories
 
 - It should be cheap, simple, and open source.
@@ -34,8 +36,14 @@ Problem Statement 15-9: "Develop a measuring board (or another system) that coul
 - Arduino Uno - Open source microcontroller (the brain; approximately $20-30)
 - Photocells - Ambient light sensitive resistors. (small, low-power, inexpensive, and tough; approximately $0.75/each)
 - LEDs - Light emitting diodes. (use to monitor photocell switches & act as state storage)
+- Resistors & bulk wire.
+- Breadboard for prototyping.
+
+![Prototype](https://raw.githubusercontent.com/fishcloud/capture-and-measure/master/images/capture-and-measure.jpg)
 
 ## Schematic
+
+See: `schematic.pdf`
 
 ## Software
 
